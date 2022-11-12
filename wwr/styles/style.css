@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@500&display=swap');
 
+/*main paige*/
+
 .logo{
     width: 80px;
 } 
@@ -189,6 +191,11 @@ nav{
     display:flex;
     justify-content: space-around;
 }
+
+/*end of main paige*/
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
