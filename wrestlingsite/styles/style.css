@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+.logo{
+    width: 80px;
+} 
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.icon{
+    padding-top: 10px;
+    width: 80px;
+}
+#content{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: black;
+    padding: 35px;
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+header{
+    background-color: #0d658d;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover{
+    background-color: white;
+    color: #021f35;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+body{
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #396E94;
+    margin: 0;
+    padding: 0;
+}
+.main-wrestling-img{
+    grid-column: 1/11;
+    margin: auto;
+    margin-top: 50px;
+}
+.second-main{
+    width: 100px;
+    grid-column: 2/5;
+}
+.opening{
+    grid-column: 2/10;
+}
+h2{
+    text-align:center;
+    color: #D61717;
+}
+h5{
+    text-align:left;
+    font-size: 1em;
+    color: black;
+}
+.body-text{
+    grid-column: 2/10;
+}
+footer h3{
+    color: black;
+}
+footer p{
+    color: white;
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
+footer{
+    background-color:#021f35;
+    margin-top: 50px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+footer .social img{
+    padding-top: 15px;
+}
