@@ -105,7 +105,6 @@ footer .social img{
 .second-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-auto-rows: (100px, auto);
 }
 .second-title{
     grid-column: 1/11;
